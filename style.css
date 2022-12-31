@@ -1,0 +1,111 @@
+:root {
+    --cream: hsl(30, 38%, 92%);
+
+    --darkCyan: hsl(158, 36%, 37%);
+    --veryDarkCyan: hsl(158, 36%, 24%);
+
+    --veryDarkBlue: hsl(212, 21%, 14%);
+    --darkGrayishBlue: hsl(228, 12%, 48%);
+}
+
+body {
+    background-color: var(--cream);
+
+    height: 100vh;
+
+    font-size: 14px;
+}
+
+
+.myCard .card .myImg {
+    width: 100%;
+    height: 100%;
+
+    background: url(images/image-product-desktop.jpg);
+    background-size: cover;
+
+    border-radius: 10px 0 0 10px;
+}
+
+.myCard .card .card-body {
+    border-radius: 0 10px 10px 0;
+}
+
+.myCard .card .card-body p.card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+    color: var(--darkGrayishBlue);
+
+    letter-spacing: .2rem;
+}
+
+.myCard .card .card-body h5.card-title {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 2.1rem;
+
+    color: var(--veryDarkBlue);
+
+}
+
+.myCard .card .card-body .myP {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+    color: var(--veryDarkBlue);
+}
+
+.myCard .card .card-body .card-text span {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+
+    color: var(--darkCyan);
+}
+
+.myCard .card .card-body .card-text small {
+    color: var(--darkGrayishBlue);
+}
+
+.myCard .card .btn {
+    border: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+    background-color: var(--darkCyan);
+
+    cursor: url(images/hand-pointer-regular.svg), auto;
+}
+
+.myCard .card .btn:hover {
+    background-color: var(--veryDarkCyan);
+}
+
+
+@media (max-width:576px) {
+    body {
+        height: auto;
+    }
+
+    .myCard {
+        width: 100%;
+        display: inline-block;
+        padding: 30px 20px;
+    }
+
+    .myCard .card .myImg {
+        height: 280px;
+
+        background: url(images/image-product-mobile.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .myCard .card .card-body {
+        border-radius: 0 0 10px 10px;
+    }
+
+}
