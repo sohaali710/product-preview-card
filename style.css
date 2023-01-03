@@ -83,6 +83,10 @@ body {
     background-color: var(--veryDarkCyan);
 }
 
+.myCard .card picture img {
+    border-radius: 10px 0 0 10px;
+}
+
 
 @media (max-width:576px) {
     body {
@@ -95,12 +99,7 @@ body {
         padding: 30px 20px;
     }
 
-    .myCard .card .myImg {
-        height: 280px;
-
-        background: url(images/image-product-mobile.jpg);
-        background-size: cover;
-        background-position: center;
+    .myCard .card picture img {
         border-radius: 10px 10px 0 0;
     }
 
