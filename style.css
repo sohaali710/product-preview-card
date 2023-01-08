@@ -45,13 +45,15 @@ main .card .card-body h1.card-title {
     font-weight: 700;
     font-size: 2.1rem;
 
-    color: var(--very-dark-blue);
+    line-height: 2.4rem;
 
+    color: var(--very-dark-blue);
 }
 
 main .card .card-body .myP {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    font-size: 1rem;
 
     color: var(--very-dark-blue);
 }
@@ -59,7 +61,7 @@ main .card .card-body .myP {
 main .card .card-body .card-text span {
     font-family: 'Fraunces', serif;
     font-weight: 700;
-    font-size: 1.8rem;
+    font-size: 2rem;
 
     color: var(--dark-cyan);
 }
