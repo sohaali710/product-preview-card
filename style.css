@@ -1,11 +1,11 @@
 :root {
     --cream: hsl(30, 38%, 92%);
 
-    --darkCyan: hsl(158, 36%, 37%);
-    --veryDarkCyan: hsl(158, 36%, 24%);
+    --dark-cyan: hsl(158, 36%, 37%);
+    --dark-dark-cyan: hsl(158, 36%, 24%);
 
-    --veryDarkBlue: hsl(212, 21%, 14%);
-    --darkGrayishBlue: hsl(228, 12%, 48%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
 }
 
 body {
@@ -35,7 +35,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 
-    color: var(--darkGrayishBlue);
+    color: var(--dark-grayish-blue);
 
     letter-spacing: .2rem;
 }
@@ -45,7 +45,7 @@ body {
     font-weight: 700;
     font-size: 2.1rem;
 
-    color: var(--veryDarkBlue);
+    color: var(--very-dark-blue);
 
 }
 
@@ -53,7 +53,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 
-    color: var(--veryDarkBlue);
+    color: var(--very-dark-blue);
 }
 
 .myCard .card .card-body .card-text span {
@@ -61,11 +61,11 @@ body {
     font-weight: 700;
     font-size: 1.8rem;
 
-    color: var(--darkCyan);
+    color: var(--dark-cyan);
 }
 
 .myCard .card .card-body .card-text small {
-    color: var(--darkGrayishBlue);
+    color: var(--dark-grayish-blue);
 }
 
 .myCard .card .btn {
@@ -74,13 +74,13 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 
-    background-color: var(--darkCyan);
+    background-color: var(--dark-cyan);
 
     cursor: url(images/hand-pointer-regular.svg), auto;
 }
 
 .myCard .card .btn:hover {
-    background-color: var(--veryDarkCyan);
+    background-color: var(--dark-dark-cyan);
 }
 
 .myCard .card picture img {
