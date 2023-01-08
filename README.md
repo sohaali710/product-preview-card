@@ -1,4 +1,4 @@
-# product-preview-card
+# Product Preview Card
 
 <h6>Technologies used:</h6>
 <ul>
